@@ -1,0 +1,15 @@
+export const SAVE_SETTINGS = 'saveSettings'
+export const SAVE_FILE = 'saveFile'
+export const REMOVE_FILE = 'removeFile'
+
+export const SAVE_USER = 'saveUser'
+export const RESET_USER = 'resetUser'
+
+export const SERVER_ADDRESS = 'https://dev1.databird.ch/geneve'
+export const GET_SPEAKERS = '/wp-json/wp/v2/orateurs'
+// export const GET_SUBJECTS = '/wp-json/wp/v2/subjects'
+export const GET_SUBJECTS = '/wp-json/wp/v2/tags'
+export const LOGIN = '/wp-json/jwt-auth/v1/token'
+// export const CREATE_POST = '/wp-json/acf/v3/posts'
+export const CREATE_POST = '/wp-json/wp/v2/posts'
+export const CREATE_MEDIA = '/wp-json/wp/v2/media'
